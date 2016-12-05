@@ -50,3 +50,13 @@ const L = 4
 //
 // Deprecated: Use something else.
 var B = 1
+
+var (
+	// C is a var.
+	C = 4
+
+	// K is a var.
+	//
+	// Deprecated: Use C.
+	K = 5
+)
