@@ -24,3 +24,15 @@ func F() {}
 //
 // Deprecated: Use F instead.
 func DeprecatedF() {}
+
+const (
+	// V is a constant.
+	//
+	// Deprecated: Use something else.
+	V = 0
+)
+
+// B is a variable.
+//
+// Deprecated: Use something else.
+var B = 1
