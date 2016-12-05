@@ -2,7 +2,15 @@
 package allgo
 
 // T is an example exported type.
-type T struct{}
+type T struct {
+	// Name is a name.
+	Name string
+
+	// DeprecatedName is a name.
+	//
+	// Deprecated: Use Name instead.
+	DeprecatedName string
+}
 
 // DeprecatedT is an example of a deprecated exported type.
 //
