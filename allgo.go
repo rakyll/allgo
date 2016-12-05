@@ -38,7 +38,13 @@ const (
 	//
 	// Deprecated: Use something else.
 	V = 0
+
+	// D is another constant.
+	D = 7
 )
+
+// L is a constant.
+const L = 4
 
 // B is a variable.
 //
